@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chris Knowles - Digtal Media Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Professional Media Portfolio for Chris Knowles">
+    <meta name="keywords" content="Cinematography, Visual Effects, Adobe Photoshop, After Effects, Adobe Premiere, Graphics, Material Design, Film, video">
+    <meta name="author" content="Chris Knowles">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
+</head>
+
+<body>
+    <a name="pagetop"></a>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 banner">
+                        <div class="banner"></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="main ">
+        <div class="page" id="mainpage">
+            <div class="content container-fluid">
+                <div class="row">
+                    <div class="col-sm-7 video">
+                        <div class="wrapper">
+                            <div class="h_iframe" title="Compilation of motion graphics and video">
+                                <img class="ratio" src="http://placehold.it/16x9" />
+                                <iframe title="Compilation of motion graphics and videos" src="https://www.youtube.com/embed/PpfHE7P1aO8?v=PpfHE7P1aO8&feature=youtu.be?controls=1&showinfo=0&rel=0&color=white" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p clss="subtitle">
+                                Compilation of motion graphics and video created for ISOFOX. Designed animated graphics, filmed and edited video, produced and directed using Adobe Photoshop, After Effects, and Premiere.
+                            </p>
+                            <hr class="hr visible-xs">
+                        </div>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-sm-5 ">
+                        <div id="signature">
+                            <h1>Chris Knowles</h1>
+                            <h2>Digital Media Artist</h2>
+                        </div>
+                        <p>
+                            <!--
+                            <div class="profile">
+                               
+<br>
+
+
+<h3>Profile</h3>
+Chris is a visual, interactive, and motion designer with 5 years of experience in the areas of branding, digital and advertising. He firmly believes that good design should tell a great story and has worked for numerous Seattle Area-based design studios and ad agencies. Chris holds a Bachelor’s in Graphic Design from Loyola Marymount University. His perfect day begins with a strenuous hike to higher elevation and a dip in the lake, followed by a few homebrews, and ends with preparing a gourmet dinner for his family.
+   
+                            </div>-->
+                            Welcome, I am pursuing a career in digital media using skills with graphic design, motion graphics, editing and sound production. This portfolio demonstrates my best work, strengths, interests and artistic growth.
+                        </p>
+                        <h3>Technical Skills Summary</h3>
+                        <ul>
+                            <li>Cinematography</li>
+                            <li>Photography</li>
+                            <li>Visual Effects</li>
+                            <li>Editing</li>
+                            <li>Graphics</li>
+                            <li>Material Design</li>
+                            <li>Logo Branding Art</li>
+                            <li>Adobe Creative Suite</li>
+                        </ul>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- row -->
+                <div class="row">
+                    <div class="page">
+                        <div>
+                            <h2>Recent Projects</h2>
+                        </div>
+                        <span id="sites"></span>
+                    </div>
+                    <!-- end page -->
+                </div>
+                <!-- end row -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a title="Compilation of 'Friends Playing Games' series" href="http://www.youtube.com/channel/UCgAP0zAVlpa1gPBrRa6hVNg">
+                            <div class="banner-games"></div>
+                        </a>
+                    </div>
+                </div>
+                <!-- row -->
+                <div class="row">
+                    <div class="page">
+                        <div>
+                            <span id="sites2"></span>
+                        </div>
+                    </div>
+                    <!-- end page -->
+                </div>
+            </div>
+            <!--  end main -->
+        </div>
+        <!-- end main -->
+    </div>
+    <footer>
+        <div class="content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3"><span class="phone signature-footer">Chris Knowles</span> </div>
+                <div class="col-xs-12 col-sm-3">Call <a class="phone" href="tel:+4256474763">(425) 647-4763</a></div>
+                <div class="col-xs-12 col-sm-3">Send <span><a class="phone" class="phone" href="mailto:chrisknowlesmk2@gmail.com?subject=Portfolio%20Info%20request">EMail</a></span></div>
+                <div class="col-xs-12 col-sm-3">Download <a class="phone" download="Resume-Chris Knowles-Media.Arts.pdf" href="Resume-Chris Knowles-Media.Arts.pdf" target="_blank">Resume</a></div>
+            </div>
+            <!-- row -->
+        </div>
+        <!-- content container -->
+    </footer>
+    <!-- templating -->
+    <script id="portfolioTmpl" type="text/x-jsrender">
+        {{if active}}
+        <div class=' portfolio-item'>
+            <div title='{{:name}}' class='img-responsive' style='background-image: url({{:image}})'></div>
+            <h3>{{:name}} {{:title}}</h3>
+            <p>
+                {{:description}} 
+
+                {{if website}}
+                <a target='_new' href='{{:website}}'>Visit&nbsp;Site</a> {{/if}}
+            </p>
+        </div>
+        </ul>
+        {{/if}}
+    </script>
+    <script id="portfolioTmpl2" type="text/x-jsrender">
+        {{if game}}
+        <div class='col-md-4 portfolio-item'>
+            <div title='{{:name}}' class='img-responsive' style='background-image: url({{:image}})'></div>
+            <h3>{{:name}}</h3>
+            <p>
+                {{:description}}  {{if website}}
+                <a target='_new' href='{{:website}}'>Visit&nbsp;Site</a> {{/if}}
+            </p>
+        </div>
+        </ul>
+        {{/if}}
+    </script>
+    <script id="projectsTmpl" type="text/x-jsrender">
+        <li><strong>{{:name}}</strong>, {{:title}}</li>
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jsrender.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

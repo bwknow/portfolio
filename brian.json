@@ -1,0 +1,179 @@
+{ "items":[
+            {   
+                "id":"1",
+                "name":"Bluenet",
+                "title":"McKinstry's News and Information Portal",
+                "website":"",
+                "type":"Sharepoint Site",
+                "image": "images/bluenet0.jpg",
+                "technology":"JavaScript, jQuery, CSS, HTML, AJAX, SharePoint 2010, SharePoint Designer, SP Central Admin",
+                "description": "Flagship McKinstry company / industry news outlet site and primary employee resource guide and document repository. This SharePoint site collection is the browser default home page for all McKinstry employees.", 
+                 "meta": {
+                    "user":"brian",
+                    "about":"I am perusing a career in digital media utilizing my skills in graphic design, motion graphics, editing and sound production. My professional skills and interest focus primarily on web site and graphics design using rich Web technologies.",
+                    "job":"digital media",
+                    "skills":"graphic design, motion graphics, editing and sound production",
+                    "interest":"Web site and graphics design",
+                    "tools":"Web Technologies",
+                    "technologies":"Cinematography, Visual Effects, Editing,Graphics, Material Design"
+                }
+            },
+             {  "id":"2",
+                "name":"McKinstry University",
+                "title":"Employee Training Catalog",
+                "website":"",
+                "type": "SharePoint Site",
+                "image": "images/mcku1.JPG",
+                "technology": "JavaScript, jQuery, CSS, HTML, AJAX, JSON, SharePoint 2013, SP Designer, DataTables jQuery plug-in",
+                "description": "Employee training guide and course catalog intranet site. As lead SP developer, provided all custom styling (PSD), taxonomy schema, and SP client-model REST / AJAX scripting. SP 2013, SCRUM",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"3",   
+                "name":"McKinstry Innovation Center",
+                "title":"Entrepreneurs access to McKinstry",
+                "website":"http://www.mckinstryinnovationcenter.com",
+                "type": "Web Site",
+                "image": "images/innovation2.JPG",
+                "technology": "JavaScript, jQuery, CSS, HTML, AJAX",
+                "description": "Web&nbsp;application that supports entrepreneur access to the McKinstry campus and all of its services and amenities as well as the opportunity to mix and mingle with McKinstry's thought-leaders and skilled tradespeople.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"4",   
+                "name":"Precision Iron Works",
+                "title":"Corporate Web Site",
+                "type": "Wordpress Site",
+                "website":"http://precisionironworks.net",
+                "image": "images/piw1.JPG",
+                "technology": "Wordpress, PHP, CSS, JavaScript, custom templates, Responsive Design",
+                "description": "Precision Iron Works, Inc. is a steel fabrication company specializing in structural and miscellaneous steel fabrication. They manage projects of all sizes, ranging from small modest structures to large multi-million dollar undertaking rewards.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"5",   
+                "name":"McKinstry Bistro",
+                "title":"Food Facilities and services",
+                "type": "Mobile Web Application",
+                "website":"http://dev2k.com/bistro",
+                "image": "images/bistro1.JPG",
+                "technology": "HTML, Javascrpt, jQuery, CSS, Responsive Design, Mobile",
+                "description": "The&nbsp;McKinstry Bistro Web site supports staff and customers providing menu options and catering services.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"6",   
+                "name":"Bluevase Design",
+                "title":"Home Staging Services Portfolio",
+                "type": "Web Site",
+                "website":"http://bluevasedesign.com",
+                "image": "images/bluevase1.JPG",
+                "technology": "Adobe Photoshop, ActionScript, Adobe Flash",
+                "description": "Home staging photo gallery for real estate marketing and staging services, transforming and preparing property for show and sale.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"7",   
+                "name":"STEM Entrepreneur Awards",
+                "title":"Applicant Registration Forms",
+                "type": "Web Application",
+                "website":"http://dev2k.com/stem/Default.aspx?page=entrepreneurial_awards_budget",
+                "image": "images/stem1.JPG",
+                "technology": "JavaScript, jQuery, CSS, HTML, XML",
+                "description": "Advanced Web forms for submitting Washington STEM Entrepreneur Award grants. These projects are among 14 around the state chosen to receive Entrepreneur Award grants from Washington STEM.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"8",   
+                "name":"McKinstry.com",
+                "title":"Corporate Web Site",
+                "type": "Web Site",
+                "website":"http://www.mckinstry.com",
+                "image": "images/mckinstry1.JPG",
+                "technology": "Flash, CSS, HTML, Javascript, CMS",
+                "description": "McKinstry is a full-service design, build, operate and maintain (DBOM) firm with over 1,800 employees and approximately $500 million in annual revenue. McKinstry’s professional staff and trades people deliver consulting, construction, energy, and facility services. ",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"9",   
+                "name":"PeoplePowerPlant",
+                "title":"School District Educational Campaign",
+                "type": "Web Site",
+                "website":"http://www.peoplepowerplanet.com/schools.php",
+                "image": "images/ppp1.JPG",
+                "technology": "PHP, HTML, CSS, JavaScript, Vimeo API, oAuth",
+                "description": "People.Power.Planet is an educational campaign that inspires people to reduce waste and become more energy efficient. A component of McKinstry’s powerED program, the 'People.Power.Planet' campaign bolsters support for the program, gets people involved, and increase program visibility.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"10",   
+                "name":"Stamps.com",
+                "title":"Internet-based postage services",
+                "type": "Web Site",
+                "website":"http://www.stamps.com",
+                "image": "images/stamps1.jpg",
+                "technology": "Javascript, HTML, CSS, XML/XSLT",
+                "description": "Stamps.com is a leading provider of Internet-based postage services. ",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"11",   
+                "name":"McKinstry powerED",
+                "title":"Energy Awareness Efficiency Program",
+                "type": "Web Site",
+                "website":"http://powered.mckinstry.com/",
+                "image": "images/powered1.jpg",
+                "technology": "Wordpress, PHP, CSS",
+                "description": "McKinstry powerED is a behavior-focused energy awareness and operational efficiency program designed to reduce costs, increase efficiency, and promote environmentally friendly operations within facilities.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },             
+            {   "id":"12",   
+                "name":"Washington Department of Ecology",
+                "title":"Move Add Change Forms",
+                "type": "Web Site",
+                "website":"",
+                "image": "images/MACforms.jpg",
+                "technology": "Wordpress, PHP, CSS",
+                "description": "Complex Web form application for employee office location move-add-change automation for WA Department of Ecology. (HTML5 / AJAX / jQuery)",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            }
+
+
+
+    ]
+}

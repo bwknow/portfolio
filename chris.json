@@ -1,0 +1,81 @@
+{ "items":[
+            {   
+                "id":"1",
+                "active":"true",
+                "name":"Coder",
+                "title":" - 100 Hour Film Race",
+                "website":"https://www.youtube.com/watch?v=aSt9mzlFKpM",
+                "type":"Video",
+                "image": "images/coder1.png",
+                "technology":"Adobe Premiere, After Effects, Adobe Photoshop",
+                "description": "The 100 Hour Film Race is an international competition that challenges filmmakers around the world to create shorts (5 minutes and 30 seconds max.) in 100 hours based on a surprise theme, prop, and action assignment.", 
+                 "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },
+             {  "id":"2",
+                "active":"true",
+                "name":"Adobe After Effects tutorial",
+                "title":"",
+                "website":"https://www.youtube.com/watch?v=Bczc7EBD8AY",
+                "type": "Video",
+                "image": "images/tutorial.png",
+                "technology": "Adobe Premiere, After Effects, Adobe Photoshop",
+                "description": "This is our first installment in our ISOFOX tutorial series covering amazing special effects using Adobe Tools.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },
+            {  "id":"3",
+                "active":"true",
+                "name":"Mini DnD Documentary",
+                "title":"",
+                "website":"https://www.youtube.com/watch?v=dc3N4l1MUsw",
+                "type": "Video",
+                "image": "images/game-documentary.png",
+                "technology": "Adobe Premiere, After Effects, Adobe Photoshop",
+                "description": "Trying something a little different here- showing the world why we approve of Dungeons and Dragons role playing. ",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },
+            {  "id":"4",
+                "active":"", 
+                "game":"true",           
+                "name":"Friends Playing Games",
+                "title":"Season 1 Teaser",
+                "website":"https://www.youtube.com/watch?v=uPIcUlnA_Xc",
+                "type": "Video",
+                "image": "images/friends-games.png",
+                "technology": "Adobe Premiere, After Effects, Adobe Photoshop",
+                "description": "In this season of Friends Playing Games, where engaging firends and guests in serious board gaming.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            },
+            {  "id":"5",
+                "active":"",            
+                "name":"Confused Mugger",
+                "title":"stranger waiting for bus",
+                "website":"https://www.youtube.com/watch?v=m3-5udLK1GY",
+                "type": "Video",
+                "image": "images/mugger.png",
+                "technology": "Adobe Premiere, After Effects, Adobe Photoshop",
+                "description": "All this guy wants to do is rob a random stranger waiting for the bus but comes across some difficulty.",
+                "meta": {
+                    "month":"January",
+                    "day":12,
+                    "year":2012
+                }
+            }
+
+    ]
+}
